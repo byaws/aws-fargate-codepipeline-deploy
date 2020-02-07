@@ -1,6 +1,3 @@
-# Version nginx latest
-FROM nginx:latest
-
 # Version node lts
 FROM node:lts
 

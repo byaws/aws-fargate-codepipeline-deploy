@@ -1,8 +1,8 @@
-<!-- <img src='https://github.com/byaws/aws-fargate-codepipeline-deploy/raw/master/screenshots/architecture.png' border='0' alt='architecture' /> -->
+<img src='https://github.com/byaws/aws-fargate-codepipeline-deploy/raw/master/screenshots/architecture.png' border='0' alt='architecture' />
 
 Implementation of automated distribution through [aws](https://aws.amazon.com/ko/) product [ecs](https://aws.amazon.com/ko/ecs/) and [fargate](https://aws.amazon.com/ko/fargate/) and [codepipeline](https://aws.amazon.com/ko/codepipeline/)
 
-> Create smart aws diagrams [Cloudcraft](https://cloudcraft.co/) Not Yet... 💧
+> Create smart aws diagrams [Cloudcraft](https://cloudcraft.co/)
 
 <br />
 
@@ -20,7 +20,9 @@ Customers such as Duolingo, Samsung, GE, and Cook Pad use ECS to run their most 
 
 Additionally, because ECS has been a foundational pillar for key Amazon services, 
 
-it can natively integrate with other services such as Amazon Route 53, Secrets Manager, AWS Identity and Access Management (IAM), and Amazon CloudWatch providing you a familiar experience to deploy and scale your containers.
+it can natively integrate with other services such as Amazon Route 53, Secrets Manager, 
+
+AWS Identity and Access Management (IAM), and Amazon CloudWatch providing you a familiar experience to deploy and scale your containers.
 
 ▾ Amazon ECS works
 
@@ -72,7 +74,7 @@ CodeBuild to build your Docker image and push the image to Amazon ECR.
 
 Add a `buildspec.yml` file to your source code repository to tell CodeBuild how to do that.
 
-[Details](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs-cd-pipeline.html)
+[Developerguide](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs-cd-pipeline.html)
 
 ▾ buildspec.yml
 
@@ -113,7 +115,7 @@ artifacts:
 
 Create a dockerfile to run in codebuild.
 
-[Dockerfile Refernce](https://docs.docker.com/engine/reference/builder/)
+[Refernce](https://docs.docker.com/engine/reference/builder/)
 
 ▾ Dockerfile
 

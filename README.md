@@ -1,4 +1,4 @@
-<img src='https://github.com/byaws/images/raw/master/fargate-codepipeline/architecture.png' border='0' alt='architecture' />
+<img src='https://github.com/byaws/aws-fargate-codepipeline-deploy/raw/images/architecture.png' border='0' alt='architecture' />
 
 Implementation of automated distribution through [AWS](https://aws.amazon.com/ko/) product [ECS](https://aws.amazon.com/ko/ecs/) to [Fargate](https://aws.amazon.com/ko/fargate/) and [CodePipeline](https://aws.amazon.com/ko/codepipeline/)
 
@@ -28,7 +28,7 @@ AWS Identity and Access Management (IAM), and Amazon CloudWatch providing you a 
 
 ▾ Amazon ECS works
 
-<img src='https://github.com/byaws/images/raw/master/fargate-codepipeline/ecs-works.png' border='0' alt='ecs-works' />
+<img src='https://github.com/byaws/aws-fargate-codepipeline-deploy/raw/images/ecs-works.png' border='0' alt='ecs-works' />
 
 ## What is Fargate ?
 
@@ -40,7 +40,7 @@ Fargate removes the need to provision and manage servers, lets you specify and p
 
 ▾ Amazon Fargate works
 
-<img src='https://github.com/byaws/images/raw/master/fargate-codepipeline/fargate-works.png' border='0' alt='fargate-works' />
+<img src='https://github.com/byaws/aws-fargate-codepipeline-deploy/raw/images/fargate-works.png' border='0' alt='fargate-works' />
 
 ## What is the difference Instance vs Fargate in ECS ?
 
@@ -56,7 +56,7 @@ AWS Fargate manages the task execution. No EC2 instances to manage anymore. You 
 
 ▾ Amazon ECS vs Faragte
 
-<img src='https://github.com/byaws/images/raw/master/fargate-codepipeline/ecs-instance-vs-fargate.png' border='0' alt='ecs-instance-vs-fargate' />
+<img src='https://github.com/byaws/aws-fargate-codepipeline-deploy/raw/images/ecs-instance-vs-fargate.png' border='0' alt='ecs-instance-vs-fargate' />
 
 ## What is CodePipeline ?
 
@@ -66,7 +66,7 @@ CodePipeline automates the build, test, and deploy phases of your release proces
 
 ▾ Amazon CodePipeline works
 
-<img src='https://github.com/byaws/images/raw/master/fargate-codepipeline/codepipeline-works.png' border='0' alt='codepipeline-works' />
+<img src='https://github.com/byaws/aws-fargate-codepipeline-deploy/raw/images/codepipeline-works.png' border='0' alt='codepipeline-works' />
 
 ## Continuous Deployment with CodePipeline
 
@@ -158,7 +158,7 @@ Amazon SNS provides topics for high-throughput, push-based, many-to-many messagi
 
 ▾ Amazon SNS works
 
-<img src='https://github.com/byaws/images/raw/master/fargate-codepipeline/sns-works.png' border='0' alt='sns-works' />
+<img src='https://github.com/byaws/aws-fargate-codepipeline-deploy/raw/images/sns-works.png' border='0' alt='sns-works' />
 
 ## What is Chatbot ?
 
@@ -168,8 +168,8 @@ AWS Chatbot is currently in beta.
 
 ▾ Amazon Chatbot Notifications
 
-<img src='https://github.com/byaws/images/raw/master/fargate-codepipeline/chatbot-notifications.png' border='0' alt='chatbot-notifications' />
+<img src='https://github.com/byaws/aws-fargate-codepipeline-deploy/raw/images/chatbot-notifications.png' border='0' alt='chatbot-notifications' />
 
 ▾ Amazon Chatbot Commands
 
-<img src='https://github.com/byaws/images/raw/master/fargate-codepipeline/chatbot-commands.png' border='0' alt='chatbot-commands' />
+<img src='https://github.com/byaws/aws-fargate-codepipeline-deploy/raw/images/chatbot-commands.png' border='0' alt='chatbot-commands' />

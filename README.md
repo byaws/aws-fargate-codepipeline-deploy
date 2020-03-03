@@ -173,3 +173,15 @@ AWS Chatbot is currently in beta.
 ▾ Amazon Chatbot Commands
 
 <img src='https://github.com/byaws/aws-fargate-codepipeline-deploy/raw/images/chatbot-commands.png' border='0' alt='chatbot-commands' />
+
+## Usage charge for this month in Fargate
+
+Region: Asia Pacific (Seoul)
+
+0.25vCPU 0.5GB
+
+per vCPU per hour	$0.04656 / per GB per hour	$0.00511
+
+▾ Amazon Billing Management
+
+<img src='https://github.com/byaws/aws-fargate-codepipeline-deploy/raw/images/price.png' border='10' alt='price' />

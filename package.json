@@ -8,7 +8,7 @@
     "lint": "tslint -p tsconfig.json -c tslint.json"
   },
   "dependencies": {
-    "bcrypt": "3.0.8",
+    "bcrypt": "5.0.0",
     "class-transformer": "0.2.3",
     "class-validator": "0.11.0",
     "cookie-parser": "1.4.4",
